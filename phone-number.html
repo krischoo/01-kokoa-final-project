@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<link rel="stylesheet" href="css/styles.css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kokoa Clone</title>
+	</head>
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__time">14:35</div>
+			<div class="status-bar__center"></div>
+			<div class="status-bar__info">
+				<span
+					><i class="status-bar__icon--signal fas fa-signal fa-sm"></i
+				></span>
+				<span class="status-bar__5g">5G</span>
+				<span
+					><i
+						class="status-bar__icon--battery fas fa-battery-three-quarters"
+					></i
+				></span>
+			</div>
+		</div>
+		<header class="phone-number__header">
+			<span>전화번호를 입력해 주세요</span>
+		</header>
+
+		<main class="main-screen">
+			<form
+				action="friends.html"
+				method="get"
+				id="phone-number-form"
+				class="phone-number__form"
+				onsubmit="return validateForm()"
+			>
+				<select
+					class="phone-number__country"
+					id="country-code"
+					name="country-code"
+				>
+					<option value="+82">대한민국 +82</option>
+				</select>
+
+				<input
+					class="phone-number__input"
+					name="phone-number"
+					type="text"
+					placeholder="전화번호"
+					required
+					pattern="\d*"
+					inputmode="numeric"
+				/>
+				<input class="phone-number__submit" type="submit" value="다음" />
+			</form>
+		</main>
+		<script
+			src="https://kit.fontawesome.com/fa1b9dabfb.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

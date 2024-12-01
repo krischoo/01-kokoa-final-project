@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<link rel="stylesheet" href="css/styles.css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kokoa Clone</title>
+	</head>
+
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__time">14:35</div>
+			<div class="status-bar__center"></div>
+			<div class="status-bar__info">
+				<span
+					><i class="status-bar__icon--signal fas fa-signal fa-sm"></i
+				></span>
+				<span class="status-bar__5g">5G</span>
+				<span
+					><i
+						class="status-bar__icon--battery fas fa-battery-three-quarters"
+					></i
+				></span>
+			</div>
+		</div>
+		<header class="alt-header">
+			<div class="alt-header__column">
+				<a href="javascript:history.back();">
+					<i class="fa-solid fa-chevron-left fa-xl"> </i>
+				</a>
+			</div>
+			<div class="alt-header__column">
+				<h1 class="alt-header__title">설정</h1>
+			</div>
+			<div class="alt-header__column">
+				<i class="fa-solid fa-magnifying-glass fa-xl"></i>
+			</div>
+		</header>
+
+		<main class="main-screen">
+			<div class="friends-user">
+				<div class="friends-user__image">
+					<img src="/image/musk.jpg" class="friends-user__avatar--xl" />
+					<i class="fa-solid fa-pencil"></i>
+				</div>
+				<div class="friends-user__text">
+					<h4 class="friends-user__title">일론 머스크</h4>
+					<span class="friends-user__subtitle">+82-10-1234-5678</span>
+				</div>
+				<div class="friends-user__column friends-user__column--btn">
+					<span>관리</span>
+				</div>
+			</div>
+
+			<ul class="settings-list">
+				<li class="settings__setting">
+					<div class="settings__setting__column">
+						<i class="fa-solid fa-user-check"></i>
+						<span>카카오계정</span>
+					</div>
+					<div class="settings__setting__column">press@twitter.com</div>
+				</li>
+				<li class="settings__setting">
+					<div class="settings__setting__column">
+						<i class="fa-solid fa-lock"></i>
+						<span>개인/보안</span>
+					</div>
+					<div class="settings__setting__column"></div>
+				</li>
+				<li class="settings__setting">
+					<div class="settings__setting__column">
+						<i class="fa-solid fa-users"></i>
+						<span>친구</span>
+					</div>
+					<div class="settings__setting__column"></div>
+				</li>
+				<li class="settings__setting">
+					<div class="settings__setting__column">
+						<i class="fa-solid fa-bell"></i>
+						<span>알림</span>
+					</div>
+					<div class="settings__setting__column"></div>
+				</li>
+				<li class="settings__setting">
+					<div class="settings__setting__column">
+						<i class="fa-solid fa-display"></i>
+						<span>화면</span>
+					</div>
+					<div class="settings__setting__column"></div>
+				</li>
+				<li class="settings__setting">
+					<div class="settings__setting__column">
+						<i class="fa-solid fa-brush"></i>
+						<span>테마</span>
+					</div>
+					<div class="settings__setting__column">시스템 설정 모드</div>
+				</li>
+				<li class="settings__setting">
+					<div class="settings__setting__column">
+						<i class="fa-solid fa-comment"></i>
+						<span>채팅</span>
+					</div>
+					<div class="settings__setting__column"></div>
+				</li>
+				<li class="settings__setting">
+					<div class="settings__setting__column">
+						<i class="fa-solid fa-face-smile-beam"></i>
+						<span>이모티콘</span>
+					</div>
+					<div class="settings__setting__column"></div>
+				</li>
+				<li class="settings__setting">
+					<div class="settings__setting__column">
+						<i class="fa-solid fa-phone"></i>
+						<span>통화</span>
+					</div>
+					<div class="settings__setting__column"></div>
+				</li>
+				<li class="settings__setting">
+					<div class="settings__setting__column">
+						<i class="fa-solid fa-hard-drive"></i>
+						<span>데이터 및 저장공간</span>
+					</div>
+					<div class="settings__setting__column"></div>
+				</li>
+				<li class="settings__setting">
+					<div class="settings__setting__column">
+						<i class="fa-solid fa-flask"></i>
+						<span>실험실</span>
+					</div>
+					<div class="settings__setting__column"></div>
+				</li>
+				<li class="settings__setting">
+					<div class="settings__setting__column">
+						<i class="fa-solid fa-ellipsis"></i>
+						<span>기타</span>
+					</div>
+					<div class="settings__setting__column"></div>
+				</li>
+			</ul>
+		</main>
+
+		<nav class="nav-bar">
+			<ul class="nav-bar__list">
+				<li class="nav-bar__btn">
+					<a class="nav-bar__link" href="friends.html">
+						<i class="fa-solid fa-user fa-2x"></i>
+					</a>
+					<span class="nav-bar__title">친구</span>
+				</li>
+				<li class="nav-bar__btn">
+					<a class="nav-bar__link" href="chats.html">
+						<span class="nav-bar__notification badge">4</span>
+						<i class="fa-solid fa-comment fa-2x"></i>
+					</a>
+					<span class="nav-bar__title">채팅</span>
+				</li>
+				<li class="nav-bar__btn">
+					<a class="nav-bar__link" href="open-chats.html">
+						<span class="nav-bar__notification badge">47</span>
+						<i class="fa-solid fa-comments fa-2x"></i>
+					</a>
+					<span class="nav-bar__title">오픈채팅</span>
+				</li>
+				<li class="nav-bar__btn">
+					<a class="nav-bar__link" href="shopping.html">
+						<i class="fa-solid fa-bag-shopping fa-2x"></i>
+					</a>
+					<span class="nav-bar__title">쇼핑</span>
+				</li>
+				<li class="nav-bar__btn">
+					<a class="nav-bar__link" href="more.html">
+						<i class="fa-solid fa-ellipsis fa-2x"></i>
+					</a>
+					<span class="nav-bar__title">더보기</span>
+				</li>
+			</ul>
+		</nav>
+
+		<script
+			src="https://kit.fontawesome.com/fa1b9dabfb.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

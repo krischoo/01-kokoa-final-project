@@ -1,0 +1,11 @@
+:root {
+	--yellow: #fae100;
+	--gray: #909090;
+	--lightGray: #c4c4c4;
+	--horizontal-space: 25px;
+	--main-border: 2px solid #00000010;
+}
+
+.recommended-friends {
+	padding-top: 25px;
+}

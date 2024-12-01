@@ -1,0 +1,18 @@
+.badge {
+	background-color: tomato;
+	color: white;
+	border-radius: 20px;
+	padding: 4px 8px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.shopping-tab-menu .badge-shopping {
+	background-color: #ffcc00;
+	color: #111;
+	border-radius: 20px;
+	padding: 4px 8px;
+	font-size: 10px;
+	font-weight: bold;
+	margin-left: 5px;
+}

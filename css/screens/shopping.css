@@ -1,0 +1,207 @@
+.shopping-search {
+	display: flex;
+	justify-content: flex-start;
+	background-color: #eeeeee;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+.shopping-search i {
+	margin-right: 10px;
+}
+.shopping-search__input {
+	width: 100%;
+	border: none;
+	background-color: #eeeeee;
+}
+
+.shopping-tab-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 20px;
+	border-bottom: var(--main-border);
+}
+.shopping-tab-menu::-webkit-scrollbar {
+	display: none;
+}
+.shopping-tab-menu span {
+	font-size: 16px;
+	font-weight: 600;
+	padding: 15px 15px;
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+	margin-bottom: -2px;
+	color: var(--lightGray);
+}
+
+.shopping-tab-menu span:nth-child(2) {
+	color: #111;
+	font-weight: 600;
+}
+
+/** shopping product **/
+.shopping-products {
+	display: flex;
+	justify-content: flex-start;
+	gap: 10px;
+	overflow-x: auto;
+	scrollbar-width: none;
+	margin-bottom: 50px;
+}
+
+.shopping-products::-webkit-scrollbar {
+	display: none;
+}
+
+.shopping-product {
+	min-width: 160px;
+	height: 250px;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+
+.shopping-product::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	border-radius: 10px;
+}
+
+.shopping-product-01 {
+	background-image: url("/image/product_01.jpg");
+}
+
+.shopping-product-02 {
+	background-image: url("/image/product_02.jpg");
+}
+
+.shopping-product-03 {
+	background-image: url("/image/product_03.webp");
+}
+
+.shopping-product-04 {
+	background-image: url("/image/product_04.jpg");
+}
+
+.shopping-product-05 {
+	background-image: url("/image/product_05.webp");
+}
+
+.shopping-product__badge {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background-color: #111111;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.shopping-product__info {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	z-index: 2;
+	color: white;
+}
+
+.shopping-product__title {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	line-height: 20px;
+}
+
+.shopping-product__subtitle {
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.shopping-keywords h1 {
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.shopping-keywords__icon {
+	width: 60px;
+	height: 60px;
+	border-radius: 20px;
+	margin-bottom: -5px;
+	background-size: cover;
+	background-position: center;
+}
+
+.icon-row__column:first-child
+	.icon-row__icon:nth-child(1)
+	.shopping-keywords__icon {
+	background-image: url("/image/keyword-01.png");
+}
+
+.icon-row__column:first-child
+	.icon-row__icon:nth-child(2)
+	.shopping-keywords__icon {
+	background-image: url("/image/keyword-02.png");
+}
+
+.icon-row__column:first-child
+	.icon-row__icon:nth-child(3)
+	.shopping-keywords__icon {
+	background-image: url("/image/keyword-03.png");
+}
+
+.icon-row__column:first-child
+	.icon-row__icon:nth-child(4)
+	.shopping-keywords__icon {
+	background-image: url("/image/keyword-04.jpg");
+}
+
+.icon-row__column:first-child
+	.icon-row__icon:nth-child(5)
+	.shopping-keywords__icon {
+	background-image: url("/image/keyword-05.png");
+}
+
+.icon-row__column:last-child
+	.icon-row__icon:nth-child(1)
+	.shopping-keywords__icon {
+	background-image: url("/image/keyword-06.jpg");
+}
+.icon-row__column:last-child
+	.icon-row__icon:nth-child(2)
+	.shopping-keywords__icon {
+	background-image: url("/image/keyword-07.jpg");
+}
+
+.icon-row__column:last-child
+	.icon-row__icon:nth-child(3)
+	.shopping-keywords__icon {
+	background-image: url("/image/keyword-08.png");
+}
+
+.icon-row__column:last-child
+	.icon-row__icon:nth-child(4)
+	.shopping-keywords__icon {
+	background-image: url("/image/keyword-09.png");
+}
+
+.icon-row__column:last-child
+	.icon-row__icon:nth-child(5)
+	.shopping-keywords__icon {
+	background-image: url("/image/keyword-10.jpg");
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<link rel="stylesheet" href="css/styles.css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kokoa Clone</title>
+	</head>
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__time">14:35</div>
+			<div class="status-bar__center"></div>
+			<div class="status-bar__info">
+				<span
+					><i class="status-bar__icon--signal fas fa-signal fa-sm"></i
+				></span>
+				<span class="status-bar__5g">5G</span>
+				<span
+					><i
+						class="status-bar__icon--battery fas fa-battery-three-quarters"
+					></i
+				></span>
+			</div>
+		</div>
+		<header class="screen-header">
+			<h1 class="screen-header__title">채팅</h1>
+			<div class="screen-header__icons">
+				<span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+				<span><i class="fa-solid fa-comment-medical fa-lg"></i></span>
+				<span
+					><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a
+				></span>
+			</div>
+		</header>
+
+		<main class="main-screen">
+			<ul class="user-components">
+				<a href="chat-diddy.html">
+					<li class="user-component">
+						<div class="user-component__image">
+							<img src="/image/diddy.png" class="user-component__avatar" />
+						</div>
+						<div class="user-component__text">
+							<h4 class="user-component__title">
+								디디 <i class="fa-solid fa-bell-slash fa-xs"></i>
+							</h4>
+							<span class="user-component__subtitle">전화 좀 받아봐</span>
+						</div>
+						<div class="user-component__column--chat">
+							<span class="user-component__time">22:42</span>
+							<span class="badge">2</span>
+						</div>
+					</li>
+				</a>
+				<a href="chat-jayz.html">
+					<li class="user-component">
+						<div class="user-component__image">
+							<img src="/image/jayz.png" class="user-component__avatar" />
+						</div>
+						<div class="user-component__text">
+							<h4 class="user-component__title">제이지</h4>
+							<span class="user-component__subtitle">ㅋㅋㅋㅋ 고마워</span>
+						</div>
+						<div class="user-component__column--chat">
+							<span class="user-component__time">12월 2일</span>
+							<span class="badge">2</span>
+						</div>
+					</li>
+				</a>
+
+				<li class="user-component">
+					<div class="user-component__image">
+						<img src="/image/trump.png" class="user-component__avatar" />
+					</div>
+					<div class="user-component__text">
+						<h4 class="user-component__title">❤️트럼프 형님❤️</h4>
+						<span class="user-component__subtitle"
+							>형님 요즘 왜 연락이 잘 안됩니까? ㅠ</span
+						>
+					</div>
+					<div class="user-component__column--chat">
+						<span class="user-component__time">11월 30일</span>
+						<span></span>
+					</div>
+				</li>
+
+				<li class="user-component">
+					<div class="user-component__image">
+						<img src="/image/Shanahan.png" class="user-component__avatar" />
+					</div>
+					<div class="user-component__text">
+						<h4 class="user-component__title">니콜 섀너핸</h4>
+						<span class="user-component__subtitle">그럼 요즘은 혼자야? ☺️</span>
+					</div>
+					<div class="user-component__column--chat">
+						<span class="user-component__time">11월 28일</span>
+						<span></span>
+					</div>
+				</li>
+				<li class="user-component">
+					<div class="user-component__image">
+						<img src="/image/Brin.png" class="user-component__avatar" />
+					</div>
+					<div class="user-component__text">
+						<h4 class="user-component__title">세르게이 브린</h4>
+						<span class="user-component__subtitle"
+							>너는 진짜 만나기만 해봐라</span
+						>
+					</div>
+					<div class="user-component__column--chat">
+						<span class="user-component__time">2023. 9. 15.</span>
+						<span></span>
+					</div>
+				</li>
+			</ul>
+		</main>
+		<nav class="nav-bar">
+			<ul class="nav-bar__list">
+				<li class="nav-bar__btn">
+					<a class="nav-bar__link" href="friends.html">
+						<i class="fa-solid fa-user fa-2x"></i>
+					</a>
+					<span class="nav-bar__title">친구</span>
+				</li>
+				<li class="nav-bar__btn">
+					<a class="nav-bar__link nav-bar__icon--focused" href="chats.html">
+						<span class="nav-bar__notification badge">4</span>
+						<i class="fa-solid fa-comment fa-2x"></i>
+					</a>
+					<span class="nav-bar__title nav-bar__icon--focused">채팅</span>
+				</li>
+				<li class="nav-bar__btn">
+					<a class="nav-bar__link" href="open-chats.html">
+						<span class="nav-bar__notification badge">47</span>
+						<i class="fa-solid fa-comments fa-2x"></i>
+					</a>
+					<span class="nav-bar__title">오픈채팅</span>
+				</li>
+				<li class="nav-bar__btn">
+					<a class="nav-bar__link" href="shopping.html">
+						<i class="fa-solid fa-bag-shopping fa-2x"></i>
+					</a>
+					<span class="nav-bar__title">쇼핑</span>
+				</li>
+				<li class="nav-bar__btn">
+					<a class="nav-bar__link" href="more.html">
+						<i class="fa-solid fa-ellipsis fa-2x"></i>
+					</a>
+					<span class="nav-bar__title">더보기</span>
+				</li>
+			</ul>
+		</nav>
+
+		<script
+			src="https://kit.fontawesome.com/fa1b9dabfb.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+.status-bar {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+
+	padding: 30px 20px 0 20px;
+}
+
+.status-bar__time {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.status-bar__info {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.status-bar span {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.status-bar__icon--battery {
+	font-size: 18px;
+}

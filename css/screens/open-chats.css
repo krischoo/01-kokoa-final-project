@@ -1,0 +1,21 @@
+.open-chats__tab {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px 0;
+	gap: 10px;
+	font-size: 14px;
+	margin-top: -25px;
+	margin-bottom: 20px;
+}
+
+.open-chats__tab span {
+	border: 1px solid #111;
+	border-radius: 50px;
+	padding: 8px 12px;
+}
+
+.open-chats__tab span:first-child {
+	background-color: #111;
+	color: #eee;
+}
