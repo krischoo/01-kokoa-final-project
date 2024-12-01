@@ -77,23 +77,23 @@
 }
 
 .shopping-product-01 {
-	background-image: url("/image/product_01.jpg");
+	background-image: url("../../image/product_01.jpg");
 }
 
 .shopping-product-02 {
-	background-image: url("/image/product_02.jpg");
+	background-image: url("../../image/product_02.jpg");
 }
 
 .shopping-product-03 {
-	background-image: url("/image/product_03.webp");
+	background-image: url("../../image/product_03.webp");
 }
 
 .shopping-product-04 {
-	background-image: url("/image/product_04.jpg");
+	background-image: url("../../image/product_04.jpg");
 }
 
 .shopping-product-05 {
-	background-image: url("/image/product_05.webp");
+	background-image: url("../../image/product_05.webp");
 }
 
 .shopping-product__badge {
@@ -150,58 +150,58 @@
 .icon-row__column:first-child
 	.icon-row__icon:nth-child(1)
 	.shopping-keywords__icon {
-	background-image: url("/image/keyword-01.png");
+	background-image: url("../../image/keyword-01.png");
 }
 
 .icon-row__column:first-child
 	.icon-row__icon:nth-child(2)
 	.shopping-keywords__icon {
-	background-image: url("/image/keyword-02.png");
+	background-image: url("../../image/keyword-02.png");
 }
 
 .icon-row__column:first-child
 	.icon-row__icon:nth-child(3)
 	.shopping-keywords__icon {
-	background-image: url("/image/keyword-03.png");
+	background-image: url("../../image/keyword-03.png");
 }
 
 .icon-row__column:first-child
 	.icon-row__icon:nth-child(4)
 	.shopping-keywords__icon {
-	background-image: url("/image/keyword-04.jpg");
+	background-image: url("../../image/keyword-04.jpg");
 }
 
 .icon-row__column:first-child
 	.icon-row__icon:nth-child(5)
 	.shopping-keywords__icon {
-	background-image: url("/image/keyword-05.png");
+	background-image: url("../../image/keyword-05.png");
 }
 
 .icon-row__column:last-child
 	.icon-row__icon:nth-child(1)
 	.shopping-keywords__icon {
-	background-image: url("/image/keyword-06.jpg");
+	background-image: url("../../image/keyword-06.jpg");
 }
 .icon-row__column:last-child
 	.icon-row__icon:nth-child(2)
 	.shopping-keywords__icon {
-	background-image: url("/image/keyword-07.jpg");
+	background-image: url("../../image/keyword-07.jpg");
 }
 
 .icon-row__column:last-child
 	.icon-row__icon:nth-child(3)
 	.shopping-keywords__icon {
-	background-image: url("/image/keyword-08.png");
+	background-image: url("../../image/keyword-08.png");
 }
 
 .icon-row__column:last-child
 	.icon-row__icon:nth-child(4)
 	.shopping-keywords__icon {
-	background-image: url("/image/keyword-09.png");
+	background-image: url("../../image/keyword-09.png");
 }
 
 .icon-row__column:last-child
 	.icon-row__icon:nth-child(5)
 	.shopping-keywords__icon {
-	background-image: url("/image/keyword-10.jpg");
+	background-image: url("../../image/keyword-10.jpg");
 }
