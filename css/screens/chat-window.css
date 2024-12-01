@@ -17,6 +17,19 @@
 	z-index: 1; /* Layer 순서 */
 }
 
+.status-bar,
+.screen-header {
+	background-color: white;
+}
+
+.status-bar {
+	z-index: 2;
+}
+
+.main-screen {
+	z-index: 1;
+}
+
 @keyframes fadeIn {
 	0% {
 		opacity: 0;

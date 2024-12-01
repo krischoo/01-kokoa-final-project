@@ -1,3 +1,14 @@
+#settings-screen .alt-header {
+	position: fixed;
+	background-color: white;
+	z-index: 1;
+}
+
+.settings-screen {
+	padding: 0 var(--horizontal-space);
+	padding-top: 110px;
+}
+
 .settings-list {
 	border-bottom: var(--main-border);
 	padding-bottom: 20px;
